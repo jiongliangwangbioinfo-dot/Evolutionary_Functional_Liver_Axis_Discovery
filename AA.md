@@ -1,4 +1,3 @@
- (cd "$(git rev-parse --show-toplevel)" && git apply --3way <<'EOF' 
 diff --git a/AA.md b/AA.md
 index 7245377826f843db4b6349cfb0ce6d0f7a90bd74..f8507435d682e1b51201b75ada24a294c5e5d136 100644
 --- a/AA.md
@@ -390,6 +389,3 @@ index 7245377826f843db4b6349cfb0ce6d0f7a90bd74..f8507435d682e1b51201b75ada24a294
 +- permits true “no spatial functionalization” outcome,
 +- requires cross-modal support to avoid single-modality artifacts,
 +- yields cross-species comparable pseudo-space for evolutionary inference.
- 
-EOF
-)
